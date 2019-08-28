@@ -1,15 +1,13 @@
 import React from "react";
+import axios from 'axios';
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
-  );
-}
+import PhotoOfDay from './components/component.js'
+
+function App (props) {
+
+  )
+    
+};
 
 export default App;
