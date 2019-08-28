@@ -16,7 +16,8 @@ function App (props) {
 
 return(
     <div className='App'>
-        <PhotoOfDay title={apiData.title} 
+        <PhotoOfDay title={apiData.title}
+                    date={apiData.date} 
                     url= {apiData.url}
                     details={apiData.explanation}/>
     </div>
