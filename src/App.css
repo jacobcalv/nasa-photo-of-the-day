@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -26,10 +28,34 @@
 .title {
   font-family: 'Space Mono', monospace;
   font-size: 2rem;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 5rem;
+  color: white;
 }
 
 .image {
-  width: 40rem;
+  width: 45%;
+}
+
+.details{
+  display: flex;
+  width: 40%;
+  text-align: center;
+  margin-left: 3rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.date{
+  color: white;
 }
 
 @keyframes App-logo-spin {

@@ -8,7 +8,7 @@ function App (props) {
   const [apiData, setApiData] = useState({});
   useEffect(() => {
     console.log('render check')
-    axios.get('https://api.nasa.gov/planetary/apod?api_key=815oDd6HlGCMeBtD5DhRoJRoqkqQd1X6ftcObMPt')
+    axios.get('https://api.nasa.gov/planetary/apod?api_key=815oDd6HlGCMeBtD5DhRoJRoqkqQd1X6ftcObMPt&date=2019-07-15')
       .then(response => {
         setApiData(response.data);
       });
